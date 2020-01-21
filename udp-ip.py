@@ -16,9 +16,6 @@ try:
     cap.close()
 except PermissionError:
     exit('run as root')
-finally:
-    cap.run_until_complete(loop.shutdown_asyncgens())
-    cap.close()
 
 if len(srcips) > 0:
     for ip in set(srcips):
