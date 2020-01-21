@@ -5,7 +5,7 @@ Get udp Ip Adrees
 
 ```bash
 sudo apt install python3 python3-pip
-pip3 install netifaces pyshark
+sudo pip3 install netifaces pyshark
 git clone  https://github.com/badr-azeez/udp-ip.git
 ```
 
